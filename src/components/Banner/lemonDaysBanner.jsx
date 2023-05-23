@@ -3,7 +3,7 @@ import './Banner.css'
 const LemonDaysBanner = () => {
     return(
         <div>
-          <img src={lemonDays} className='banner'  />
+          <img src={lemonDays} className='banner' alt='Lemondays Logotype' />
         </div>
     )
 };
