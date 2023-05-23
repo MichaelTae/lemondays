@@ -16,31 +16,32 @@
     
   }
   10% {
-    box-shadow: 5px 5px 0 0 rgba(65, 117, 5, 1), 10px 10px 0 0 rgba(65, 117, 5, 0.4);
+    box-shadow: 5px 5px 0 0 rgb(176, 46, 180,1), 10px 10px 0 0 rgba(176, 46, 180, 0.4);
+  
   }
   20% {
-    box-shadow: 5px 5px 0 0 rgba(65, 117, 5, 1), 10px 10px 0 0 rgba(65, 117, 5, 0.4),
-    15px 15px 0 0 rgba(65, 117, 5, 0.3);
+    box-shadow: 5px 5px 0 0 rgb(176, 46, 180,1), 10px 10px 0 0 rgba(176, 46, 180, 0.4),
+    15px 15px 0 0 rgba(176, 46, 180, 0.4);
   }
   30% {
-    box-shadow: 5px 5px 0 0 rgba(65, 117, 5, 1), 10px 10px 0 0 rgba(65, 117, 5, 0.4),
-    15px 15px 0 0 rgba(65, 117, 5, 0.3), 20px 20px 0 0 rgba(65, 117, 5, 0.2);
+    box-shadow: 5px 5px 0 0 rgb(176, 46, 180,1), 10px 10px 0 0 rgba(176, 46, 180, 0.4),
+    15px 15px 0 0 rgba(176, 46, 180, 0.4), 20px 20px 0 0 rgba(176, 46, 180, 0.2);
   }
   40%, 60% {
-    box-shadow: 5px 5px 0 0 rgba(65, 117, 5, 1), 10px 10px 0 0 rgba(65, 117, 5, 0.4),
-    15px 15px 0 0 rgba(65, 117, 5, 0.3), 20px 20px 0 0 rgba(65, 117, 5, 0.2),
+    box-shadow: 5px 5px 0 0 rgb(176, 46, 180,1), 10px 10px 0 0 rgba(176, 46, 180, 0.4),
+    15px 15px 0 0 rgba(176, 46, 180, 0.4), 20px 20px 0 0 rgba(176, 46, 180, 0.2),
     25px 25px 0 0 rgba(65, 117, 5, 0.1);
   }
   70% {
-    box-shadow: 5px 5px 0 0 rgba(65, 117, 5, 1), 10px 10px 0 0 rgba(65, 117, 5, 0.4),
-    15px 15px 0 0 rgba(65, 117, 5, 0.3), 20px 20px 0 0 rgba(65, 117, 5, 0.2);
+    box-shadow: 5px 5px 0 0 rgb(176, 46, 180,1), 10px 10px 0 0 rgba(176, 46, 180, 0.4),
+    15px 15px 0 0 rgba(176, 46, 180, 0.4), 20px 20px 0 0 rgba(176, 46, 180, 0.2);
   }
   80% {
-    box-shadow: 5px 5px 0 0 rgba(65, 117, 5, 1), 10px 10px 0 0 rgba(65, 117, 5, 0.4),
-    15px 15px 0 0 rgba(65, 117, 5, 0.3);
+    box-shadow: 5px 5px 0 0 rgb(176, 46, 180,1), 10px 10px 0 0 rgba(176, 46, 180, 0.4),
+    15px 15px 0 0 rgba(176, 46, 180, 0.4);
   }
   90% {
-    box-shadow: 5px 5px 0 0 rgba(65, 117, 5, 1), 10px 10px 0 0 rgba(65, 117, 5, 0.4);
+    box-shadow: 5px 5px 0 0 rgb(176, 46, 180,1), 10px 10px 0 0 rgba(176, 46, 180, 0.4);
   }
 }
 
@@ -74,7 +75,7 @@
   width: 92%;
   height: 2px;
   border-radius: 4px;
-  background:   rgb(51, 155, 2);
+  background:   rgb(167, 5, 158);
   bottom: 1px;
   left: 8px;
   transform-origin: right;
