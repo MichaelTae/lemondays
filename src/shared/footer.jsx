@@ -11,7 +11,7 @@ const Footer = () => {
       
       <div className='footerLinkBox'>
         <div className='footerLinks'>
-          <a href='https://www.instagram.com/le.mondays/' target='_blank'>
+          <a href='https://www.instagram.com/le.mondays/' target='_blank' >
             Instagram
           </a>
           <a href='https://twitter.com/le_mondays' target='_blank'>
