@@ -1,4 +1,4 @@
-# lemondays
+# le-mondays
 A simple website I created for the band le mondays.
 
 It's hosted on netlify and the live version is le-mondays.com 
