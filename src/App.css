@@ -3,34 +3,27 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  
 }
 
 .mainGrid {
   display: flex;
   flex-direction: row;
   column-gap: 2%;
- 
-  
 }
-
 
 @media screen and (max-width: 900px) {
   .mainGrid {
     flex-direction: column;
     margin-top: 15%;
-    
   }
   .mainGrid > * {
     margin-bottom: 5%;
   }
-  
-  
+
   .mainGrid > *:last-child {
     margin-bottom: 0;
   }
 }
-
 
 .instagram-gradient {
   fill: url(#instagram-gradient);
@@ -40,5 +33,3 @@
   width: 24px;
   height: 24px;
 }
-
-
