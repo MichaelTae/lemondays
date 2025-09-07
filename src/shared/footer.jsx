@@ -3,15 +3,16 @@ import { Mail } from 'react-feather';
 import { motion } from 'framer-motion';
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className='footerContainer'>
       <div className='footerIncBox'>
-        <p>© 2023 Le Mondays</p>
+        <p>© {currentYear} Le Mondays</p>
       </div>
-      
+
       <div className='footerLinkBox'>
         <div className='footerLinks'>
-          <a href='https://www.instagram.com/le.mondays/' target='_blank' >
+          <a href='https://www.instagram.com/le.mondays/' target='_blank'>
             Instagram
           </a>
           <a href='https://twitter.com/le_mondays' target='_blank'>
@@ -29,11 +30,13 @@ const Footer = () => {
         </div>
       </div>
       <div className='footerEmailBox'>
-      
         <span>Contact us</span>
-        <motion.div  whileHover={{ scale: 1.1 }}>
-          <a className='footerLinkBoxATag' href='mailto:le.mondays.info@gmail.com'>
-            <Mail size={20}/> le.mondays.info@gmail.com
+        <motion.div whileHover={{ scale: 1.1 }}>
+          <a
+            className='footerLinkBoxATag'
+            href='mailto:le.mondays.info@gmail.com'
+          >
+            <Mail size={20} /> le.mondays.info@gmail.com
           </a>
         </motion.div>
       </div>
