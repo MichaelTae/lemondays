@@ -112,7 +112,7 @@ function App() {
               link={'https://www.youtube.com/@Le.Mondays'}
             />{' '}
           </motion.div>
-          <motion.div
+          {/* <motion.div
             variants={item}
             whileHover={{ scale: 1.05 }}
             className='logoLink'
@@ -122,7 +122,7 @@ function App() {
               title={'Twitter'}
               link={'https://twitter.com/le_mondays'}
             />{' '}
-          </motion.div>
+          </motion.div> */}
         </motion.div>
         <Footer />
       </div>
