@@ -15,9 +15,9 @@ const Footer = () => {
           <a href='https://www.instagram.com/le.mondays/' target='_blank'>
             Instagram
           </a>
-          <a href='https://twitter.com/le_mondays' target='_blank'>
+          {/* <a href='https://twitter.com/le_mondays' target='_blank'>
             Twitter
-          </a>
+          </a> */}
           <a
             href='https://open.spotify.com/track/1aR6nOZDJAiFdH4eXI56dJ'
             target='_blank'
