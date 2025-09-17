@@ -32,11 +32,8 @@ const Footer = () => {
       <div className='footerEmailBox'>
         <span>Contact us</span>
         <motion.div whileHover={{ scale: 1.1 }}>
-          <a
-            className='footerLinkBoxATag'
-            href='mailto:le.mondays.info@gmail.com'
-          >
-            <Mail size={20} /> le.mondays.info@gmail.com
+          <a className='footerLinkBoxATag' href='mailto:le.mondays@outlook.com'>
+            <Mail size={20} /> le.mondays@outlook.com
           </a>
         </motion.div>
       </div>
